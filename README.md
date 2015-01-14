@@ -14,6 +14,7 @@ Here's the first dataset and problem! Answers will be released at a later date. 
 Dataset Description: A CSV of bicycle rental transactions for a rental company in California.
 
 Dataset Download
+http://mandrillapp.com/track/click/30315607/s3-us-west-1.amazonaws.com?p=eyJzIjoiZG84bDF5dl9kUjNtY2hfelpjLXdtZmVZQVdRIiwidiI6MSwicCI6IntcInVcIjozMDMxNTYwNyxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3MzLXVzLXdlc3QtMS5hbWF6b25hd3MuY29tXFxcL2RhdGF5ZWFyXFxcL2Jpa2VfdHJpcF9kYXRhLmNzdlwiLFwiaWRcIjpcIjE3MGE1MTFhNGYzNTRlNWY5YjhhMDMzMWM1NTUwODUxXCIsXCJ1cmxfaWRzXCI6W1wiMTVlYzMzNWM1NDRlMTM1ZDI0YjAwODE4ZjI5YTdkMmFkZjU2NWQ2MVwiXX0ifQ
 
 Problem 1: What was the average total time (in minutes) used by a bicycle in the data?
 
