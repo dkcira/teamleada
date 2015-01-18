@@ -89,17 +89,20 @@ sort(table(list_of_days))
 all_stations <- unique(bike_trip$Start.Station)
 bikes_per_station <- rep(30, length(all_stations))
 max_trips <- length(bike_trip$Trip.ID)
-for (itrip in 1:max_trips){
+#for (itrip in 1:max_trips){
+for (itrip in 1:100){
   # add returning bikes
   #
   # remove parting bikes
   start_st <- bike_trip[itrip, 4]
-  index_st <- all_stations[all_stations == start_st]
-  all_stations[index_st] <- all_stations[index_st] - 1
+  index_st <- which(all_stations == start_st) # find index of that station
+  print(index_st)
+  bikes_per_station[index_st] <- bikes_per_station[index_st] - 1 # use same index for the bikes_per_station
 }
 
+bikes_per_station
 
-
+# sort by Start.Date, End.Date columns?
 
 
 
